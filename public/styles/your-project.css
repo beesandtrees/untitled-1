@@ -1,0 +1,147 @@
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  background-color: #111;
+  color: #FFF; }
+
+body {
+  padding: 0; }
+
+h1 {
+  font-size: 30px; }
+
+.gradient {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  bottom: 10%;
+  right: 10%;
+  background: #004090;
+  background: -moz-linear-gradient(top, #000b77 0%, #00d1ed 44%, white 82%, #66ffff 90%, #000b77 100%);
+  background: -webkit-linear-gradient(top, #000b77 0%, #00d1ed 44%, white 82%, #66ffff 90%, #000b77 100%);
+  background: -o-linear-gradient(top, #000b77 0%, #00d1ed 44%, white 82%, #66ffff 90%, #000b77 100%);
+  background: -ms-linear-gradient(top, #000b77 0%, #00d1ed 44%, white 82%, #66ffff 90%, #000b77 100%);
+  background: linear-gradient(to bottom, #000b77 0%, #00d1ed 44%, white 82%, #66ffff 90%, #000b77 100%);
+  background-size: 100% 200%;
+  -webkit-animation: grad 10s infinite;
+  /* Safari 4+ */
+  -moz-animation: grad 10s infinite;
+  /* Fx 5+ */
+  -o-animation: grad 10s infinite;
+  /* Opera 12+ */
+  animation: grad 10s infinite;
+  /* IE 10+, Fx 29+ */ }
+
+.gradient.pink {
+  background: #e82e6f;
+  background: -moz-linear-gradient(top, #e82e6f 0%, #f7aa2e 50%, #fce749 100%);
+  background: -webkit-linear-gradient(top, #e82e6f 0%, #f7aa2e 50%, #fce749 100%);
+  background: -o-linear-gradient(top, #e82e6f 0%, #f7aa2e 50%, #fce749 100%);
+  background: -ms-linear-gradient(top, #e82e6f 0%, #f7aa2e 50%, #fce749 100%);
+  background: linear-gradient(to bottom, #e82e6f 0%, #f7aa2e 50%, #fce749 100%);
+  top: 20%;
+  left: 40%;
+  right: 40%;
+  bottom: 60%; }
+
+.gradient.orange {
+  background: #f7aa2e;
+  background: -moz-linear-gradient(top, #f7aa2e 0%, #fce749 48%, #e1ff87 75%, white 100%);
+  background: -webkit-linear-gradient(top, #f7aa2e 0%, #fce749 48%, #e1ff87 75%, white 100%);
+  background: -o-linear-gradient(top, #f7aa2e 0%, #fce749 48%, #e1ff87 75%, white 100%);
+  background: -ms-linear-gradient(top, #f7aa2e 0%, #fce749 48%, #e1ff87 75%, white 100%);
+  background: linear-gradient(to bottom, #f7aa2e 0%, #fce749 48%, #e1ff87 75%, white 100%);
+  top: 65%;
+  left: 42%;
+  right: 42%;
+  bottom: 20%; }
+
+@-webkit-keyframes grad {
+  0% {
+    background-position: 0 0; }
+
+  50% {
+    background-position: 0 100%; }
+
+  100% {
+    background-position: 0 0; } }
+@-moz-keyframes grad {
+  0% {
+    background-position: 0 0; }
+
+  50% {
+    background-position: 0 100%; }
+
+  100% {
+    background-position: 0 0; } }
+@-o-keyframes grad {
+  0% {
+    background-position: 0 0; }
+
+  50% {
+    background-position: 0 100%; }
+
+  100% {
+    background-position: 0 0; } }
+@keyframes grad {
+  0% {
+    background-position: 0 0; }
+
+  50% {
+    background-position: 0 100%; }
+
+  100% {
+    background-position: 0 0; } }
+.black {
+  position: fixed;
+  top: 11%;
+  left: 11%;
+  bottom: 11%;
+  right: 11%;
+  background: #333333;
+  background: -moz-radial-gradient(center, ellipse cover, #131342 0%, #111111 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #131342 0%, #111111 100%);
+  background: -o-radial-gradient(center, ellipse cover, #131342 0%, #111111 100%);
+  background: -ms-radial-gradient(center, ellipse cover, #131342 0%, #111111 100%);
+  background: radial-gradient(ellipse at center, #131342 0%, #111111 100%);
+  overflow: hidden; }
+
+.chevron {
+  border: 2px solid #bbaa89;
+  width: 101%;
+  height: 101%;
+  margin-left: -1%;
+  margin-top: -1%;
+  transform: rotate(45deg);
+  box-shadow: 0px 0px 40px 140px #111111;
+  -moz-box-shadow: 0px 0px 40px 140px #111111;
+  -webkit-box-shadow: 0px 0px 40px 140px #111111;
+  -webkit-animation: rotate 10s infinite;
+  -moz-animation: rotate 10s infinite;
+  -o-animation: rotate 10s infinite;
+  animation: rotate 10s infinite; }
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg); }
+
+  100% {
+    -webkit-transform: rotate(180deg); } }
+@-moz-keyframes rotate {
+  0% {
+    -moz-transform: rotate(0deg); }
+
+  100% {
+    -moz-transform: rotate(180deg); } }
+@-o-keyframes rotate {
+  0% {
+    -o-transform: rotate(0deg); }
+
+  100% {
+    -o-transform: rotate(180deg); } }
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg); }
+
+  100% {
+    transform: rotate(180deg); } }
